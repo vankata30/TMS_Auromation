@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Fileshare/OneDrive - Accedia/Desktop/Multichoice/TMS/TMS_Automation_update/src/test/java/Tests/admin">
+        <classes>
+            <class name="Tests.admin.CampaignCustomerTypes">
+                <methods>
+                    <include name="createNewCustomerType"/>
+                    <include name="editCustomerType"/>
+                </methods>
+            </class>
+            <class name="Tests.admin.Categories">
+                <methods>
+                    <include name="createNewCategory"/>
+                    <include name="editCategory"/>
+                </methods>
+            </class>
+            <class name="Tests.admin.ChannelTypes">
+                <methods>
+                    <include name="editChannelType"/>
+                </methods>
+            </class>
+            <class name="Tests.admin.Departments">
+                <methods>
+                    <include name="createNewDepartment"/>
+                    <include name="editDepartment"/>
+                </methods>
+            </class>
+            <class name="Tests.admin.MessageTriggers">
+                <methods>
+                    <include name="createNewMessageTrigger"/>
+                    <include name="editMessageTrigger"/>
+                </methods>
+            </class>
+            <class name="Tests.admin.RequestApproverGroups">
+                <methods>
+                    <include name="createNewApproverGroup"/>
+                    <include name="editApproverGroup"/>
+                </methods>
+            </class>
+            <class name="Tests.admin.SenderSystems">
+                <methods>
+                    <include name="createNewDepartment"/>
+                    <include name="editDepartment"/>
+                </methods>
+            </class>
+            <class name="Tests.admin.TesterGroups">
+                <methods>
+                    <include name="createNewTetserGroup"/>
+                    <include name="editTesterGroup"/>
+                </methods>
+            </class>
+            <class name="Tests.admin.Users">
+                <methods>
+                    <include name="editUser"/>
+                    <include name="filterUsersByEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
